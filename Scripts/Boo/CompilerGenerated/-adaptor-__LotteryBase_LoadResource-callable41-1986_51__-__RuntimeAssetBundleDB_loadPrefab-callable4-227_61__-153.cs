@@ -1,0 +1,25 @@
+using System;
+using UnityEngine;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024__LotteryBase_LoadResource_0024callable41_00241986_51___0024__RuntimeAssetBundleDB_loadPrefab_0024callable4_0024227_61___0024153
+{
+	protected __LotteryBase_LoadResource_0024callable41_00241986_51__ _0024from;
+
+	public _0024adaptor_0024__LotteryBase_LoadResource_0024callable41_00241986_51___0024__RuntimeAssetBundleDB_loadPrefab_0024callable4_0024227_61___0024153(__LotteryBase_LoadResource_0024callable41_00241986_51__ from)
+	{
+		_0024from = from;
+	}
+
+	public void Invoke(GameObject arg0)
+	{
+		_0024from(arg0);
+	}
+
+	public static __RuntimeAssetBundleDB_loadPrefab_0024callable4_0024227_61__ Adapt(__LotteryBase_LoadResource_0024callable41_00241986_51__ from)
+	{
+		return new _0024adaptor_0024__LotteryBase_LoadResource_0024callable41_00241986_51___0024__RuntimeAssetBundleDB_loadPrefab_0024callable4_0024227_61___0024153(from).Invoke;
+	}
+}

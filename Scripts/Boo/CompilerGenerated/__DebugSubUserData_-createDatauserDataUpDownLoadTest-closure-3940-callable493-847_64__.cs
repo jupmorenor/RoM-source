@@ -1,0 +1,8 @@
+using System;
+using System.Runtime.CompilerServices;
+
+namespace CompilerGenerated;
+
+[Serializable]
+[CompilerGenerated]
+public delegate DebugSubUserData.ActionClassuserDataLoadMain2 __DebugSubUserData__0024createDatauserDataUpDownLoadTest_0024closure_00243940_0024callable493_0024847_64__(string f);

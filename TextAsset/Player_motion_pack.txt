@@ -1,0 +1,2947 @@
+{
+	"name": "Player_motion_pack",
+	"root_path": "y_ang",
+	"clips": [
+		{
+			"name": "idle",
+			"anim_name": "c0000_bt_1hs_idle",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "run",
+			"anim_name": "c0000_bt_1hs_run",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "attack1",
+			"anim_name": "c0000_bt_1hs_atk1",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "attack2",
+			"anim_name": "c0000_bt_1hs_atk2",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "attack3",
+			"anim_name": "c0000_bt_1hs_atk3",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "dodge",
+			"anim_name": "c0000_bt_1hs_dodge",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "issen",
+			"anim_name": "c0000_bt_1hs_issen",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "yarare_dead",
+			"anim_name": "c0000_bt_1hs_dead",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "yarare_down",
+			"anim_name": "c0000_bt_1hs_down",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "yarare_weak",
+			"anim_name": "c0000_bt_1hs_dmg",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "yarare_zuzaa",
+			"anim_name": "c0000_bt_1hs_zuzaa",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "skill1",
+			"anim_name": "c0000_bt_1hs_skill1",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "skill2",
+			"anim_name": "c0000_bt_1hs_skill2",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "skill3",
+			"anim_name": "c0000_bt_1hs_skill3",
+			"type": "normal",
+			"root_motion_translation": "xz"
+		},
+		{
+			"name": "skill4",
+			"anim_name": "c0000_bt_1hs_skill4a",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "skill5",
+			"anim_name": "c0000_bt_1hs_skill5",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "skill6",
+			"anim_name": "c0000_bt_1hs_skill6",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "skill7",
+			"anim_name": "c0000_bt_1hs_skill7",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "skill8",
+			"anim_name": "c0000_bt_1hs_skill8",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "skill9",
+			"anim_name": "c0000_bt_1hs_skill9",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "skill10",
+			"anim_name": "c0000_bt_1hs_skill10",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "skill11",
+			"anim_name": "c0000_bt_1hs_skill11",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "skill12",
+			"anim_name": "c0000_bt_1hs_skill12",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "skill13",
+			"anim_name": "c0000_bt_1hs_skill13",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "skill14",
+			"anim_name": "c0000_bt_1hs_skill14",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "skill15",
+			"anim_name": "c0000_bt_1hs_skill15",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spStart",
+			"anim_name": "c0000_bt_1hs_sp",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spAtk1",
+			"anim_name": "c0000_bt_1hs_sp1",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spAtk2",
+			"anim_name": "c0000_bt_1hs_sp2",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "ev_idle",
+			"anim_name": "c0000_ev_idle",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "ev_run",
+			"anim_name": "c0000_ev_run",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "ev_walk",
+			"anim_name": "c0000_ev_walk",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "bow_attack1",
+			"anim_name": "c0000_bt_bow_atk1",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_attack2",
+			"anim_name": "c0000_bt_bow_atk1",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_attack3",
+			"anim_name": "c0000_bt_bow_atk1",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_yarare_dead",
+			"anim_name": "c0000_bt_bow_dead",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_yarare_weak",
+			"anim_name": "c0000_bt_bow_dmg",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_yarare_zuzaa",
+			"anim_name": "c0000_bt_bow_zuzaa",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_dodge",
+			"anim_name": "c0000_bt_bow_dodge",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_yarare_down",
+			"anim_name": "c0000_bt_bow_down",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_idle",
+			"anim_name": "c0000_bt_bow_idle",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "bow_issen",
+			"anim_name": "c0000_bt_bow_atk1",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_run",
+			"anim_name": "c0000_bt_bow_run",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "bow_skill1",
+			"anim_name": "c0000_bt_bow_skill1",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_skill2",
+			"anim_name": "c0000_bt_bow_skill2",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_skill3",
+			"anim_name": "c0000_bt_bow_skill3",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_skill4",
+			"anim_name": "c0000_bt_bow_skill4",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_skill5",
+			"anim_name": "c0000_bt_bow_skill5",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_skill6",
+			"anim_name": "c0000_bt_bow_skill6",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_skill7",
+			"anim_name": "c0000_bt_bow_skill7",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_skill8",
+			"anim_name": "c0000_bt_bow_skill8",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_skill9",
+			"anim_name": "c0000_bt_bow_skill9",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_skill10",
+			"anim_name": "c0000_bt_bow_skill10",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_skill11",
+			"anim_name": "c0000_bt_bow_skill11b",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_skill12",
+			"anim_name": "c0000_bt_bow_skill12",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_skill13",
+			"anim_name": "c0000_bt_bow_skill13",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_skill14",
+			"anim_name": "c0000_bt_bow_skill14",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_skill15",
+			"anim_name": "c0000_bt_bow_skill15",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_spStart",
+			"anim_name": "c0000_bt_bow_sp",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_spAtk1",
+			"anim_name": "c0000_bt_bow_sp1",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bow_spAtk2",
+			"anim_name": "c0000_bt_bow_sp2",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_attack1",
+			"anim_name": "c0000_bt_spr_atk1",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_attack2",
+			"anim_name": "c0000_bt_spr_atk2",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_attack3",
+			"anim_name": "c0000_bt_spr_atk3",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_yarare_dead",
+			"anim_name": "c0000_bt_spr_dead",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_yarare_weak",
+			"anim_name": "c0000_bt_spr_dmg",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_yarare_zuzaa",
+			"anim_name": "c0000_bt_spr_zuzaa",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_dodge",
+			"anim_name": "c0000_bt_spr_dodge",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_yarare_down",
+			"anim_name": "c0000_bt_spr_down",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_idle",
+			"anim_name": "c0000_bt_spr_idle",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "spr_issen",
+			"anim_name": "c0000_bt_spr_issen",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_run",
+			"anim_name": "c0000_bt_spr_run",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "spr_skill1",
+			"anim_name": "c0000_bt_spr_skill1",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_skill2",
+			"anim_name": "c0000_bt_spr_skill2b",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_skill3",
+			"anim_name": "c0000_bt_spr_skill3",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_skill4",
+			"anim_name": "c0000_bt_spr_skill4",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_skill5",
+			"anim_name": "c0000_bt_spr_skill5",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_skill6",
+			"anim_name": "c0000_bt_spr_skill6",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_skill7",
+			"anim_name": "c0000_bt_spr_skill7",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_skill8",
+			"anim_name": "c0000_bt_spr_skill8",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_skill9",
+			"anim_name": "c0000_bt_spr_skill9b",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_skill10",
+			"anim_name": "c0000_bt_spr_skill10b",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_skill11",
+			"anim_name": "c0000_bt_spr_skill11",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_skill12",
+			"anim_name": "c0000_bt_spr_skill12",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_skill13",
+			"anim_name": "c0000_bt_spr_skill13",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_skill14",
+			"anim_name": "c0000_bt_spr_skill14",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_skill15",
+			"anim_name": "c0000_bt_spr_skill15",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "bt2ev",
+			"anim_name": "c0000_bt_1hs_bt2ev",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "ev2bt",
+			"anim_name": "c0000_bt_1hs_ev2bt",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "bow_bt2ev",
+			"anim_name": "c0000_bt_bow_bt2ev",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "bow_ev2bt",
+			"anim_name": "c0000_bt_bow_ev2bt",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "spr_bt2ev",
+			"anim_name": "c0000_bt_spr_bt2ev",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "spr_ev2bt",
+			"anim_name": "c0000_bt_spr_ev2bt",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "spr_spStart",
+			"anim_name": "c0000_bt_spr_sp",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_spAtk1",
+			"anim_name": "c0000_bt_spr_sp1",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "spr_spAtk2",
+			"anim_name": "c0000_bt_1hs_sp2",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_attack1",
+			"anim_name": "c0000_bt_hth_atk1",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_attack2",
+			"anim_name": "c0000_bt_hth_atk2",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_attack3",
+			"anim_name": "c0000_bt_hth_atk3",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_attack4",
+			"anim_name": "c0000_bt_hth_atk4",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_yarare_dead",
+			"anim_name": "c0000_bt_hth_dead",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_yarare_weak",
+			"anim_name": "c0000_bt_hth_dmg",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_yarare_zuzaa",
+			"anim_name": "c0000_bt_hth_zuzaa",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_dodge",
+			"anim_name": "c0000_bt_hth_dodge",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_yarare_down",
+			"anim_name": "c0000_bt_hth_down",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_idle",
+			"anim_name": "c0000_bt_hth_idle",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "hth_issen",
+			"anim_name": "c0000_bt_hth_issen",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_run",
+			"anim_name": "c0000_bt_hth_run",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "hth_skill1",
+			"anim_name": "c0000_bt_hth_skill1",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_skill2",
+			"anim_name": "c0000_bt_hth_skill2",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_skill3",
+			"anim_name": "c0000_bt_hth_skill3",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_skill4",
+			"anim_name": "c0000_bt_hth_skill4b",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_skill5",
+			"anim_name": "c0000_bt_hth_skill5a",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_skill6",
+			"anim_name": "c0000_bt_hth_skill6",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_skill7",
+			"anim_name": "c0000_bt_hth_skill7",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_skill8",
+			"anim_name": "c0000_bt_hth_skill8",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_skill9",
+			"anim_name": "c0000_bt_hth_skill9",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_skill10",
+			"anim_name": "c0000_bt_hth_skill10",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_skill11",
+			"anim_name": "c0000_bt_hth_skill11",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_skill12",
+			"anim_name": "c0000_bt_hth_skill12",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_skill13",
+			"anim_name": "c0000_bt_hth_skill13",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_skill14",
+			"anim_name": "c0000_bt_hth_skill14",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_skill15",
+			"anim_name": "c0000_bt_hth_skill15",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_spStart",
+			"anim_name": "c0000_bt_hth_sp",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_spAtk1",
+			"anim_name": "c0000_bt_hth_sp1",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_spAtk2",
+			"anim_name": "c0000_bt_hth_sp2",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "hth_ev2bt",
+			"anim_name": "c0000_bt_hth_ev2bt",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "hth_bt2ev",
+			"anim_name": "c0000_bt_hth_bt2ev",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "ev_no",
+			"anim_name": "c0000_ev_no",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "ev_talk",
+			"anim_name": "c0000_ev_talk",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "ev_sigh",
+			"anim_name": "c0000_ev_sigh",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "ev_think",
+			"anim_name": "c0000_ev_think",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "2hs_attack1",
+			"anim_name": "c0000_bt_2hs_atk1",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "2hs_attack2",
+			"anim_name": "c0000_bt_2hs_atk2",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "2hs_issen",
+			"anim_name": "c0000_bt_2hs_issen",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "2hs_yarare_dead",
+			"anim_name": "c0000_bt_2hs_dead",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "2hs_yarare_weak",
+			"anim_name": "c0000_bt_2hs_dmg",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "2hs_yarare_zuzaa",
+			"anim_name": "c0000_bt_2hs_zuzaa",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "2hs_dodge",
+			"anim_name": "c0000_bt_2hs_dodge",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "2hs_yarare_down",
+			"anim_name": "c0000_bt_2hs_down",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "2hs_idle",
+			"anim_name": "c0000_bt_2hs_idle",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "2hs_issen",
+			"anim_name": "c0000_bt_2hs_skill4",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "2hs_run",
+			"anim_name": "c0000_bt_2hs_run",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "2hs_skill1",
+			"anim_name": "c0000_bt_2hs_skill1",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "2hs_skill2",
+			"anim_name": "c0000_bt_2hs_skill2",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "2hs_skill3",
+			"anim_name": "c0000_bt_2hs_skill3",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "2hs_skill4",
+			"anim_name": "c0000_bt_2hs_skill4",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "2hs_spStart",
+			"anim_name": "c0000_bt_2hs_sp",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "2hs_spAtk1",
+			"anim_name": "c0000_bt_2hs_sp1",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "2hs_spAtk2",
+			"anim_name": "c0000_bt_2hs_sp2",
+			"type": "normal",
+			"root_motion_translation": "z"
+		},
+		{
+			"name": "2hs_ev2bt",
+			"anim_name": "c0000_bt_2hs_ev2bt",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		{
+			"name": "2hs_bt2ev",
+			"anim_name": "c0000_bt_2hs_bt2ev",
+			"type": "normal",
+			"root_motion_translation": ""
+		},
+		],
+	"layers": [
+		{
+			"name": "full body",
+			"priority": 1,
+			"states": [
+				{
+					"name": "idle",
+					"tree": {
+						"type": "clip",
+						"name": "idle"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "run",
+					"is_looping": true,
+					"tree": {
+						"type": "clip",
+						"name": "run"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "attack1",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "attack1"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "attack2",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "attack2"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "attack3",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "attack3"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "dodge",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "dodge"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "issen",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "issen"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "yarare_weak",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "yarare_weak"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "yarare_zuzaa",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "yarare_zuzaa"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "yarare_down",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "yarare_down"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "yarare_dead",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "yarare_dead"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "skill1",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "skill1"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "skill2",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "skill2"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "skill3",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "skill3"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "skill4",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "skill4"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "skill5",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "skill5"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "skill6",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "skill6"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "skill7",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "skill7"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "skill8",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "skill8"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "skill9",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "skill9"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "skill10",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "skill10"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "skill11",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "skill11"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spStart",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spStart"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spAtk1",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spAtk1"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spAtk2",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spAtk2"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "ev_idle",
+					"is_looping": true,
+					"tree": {
+						"type": "clip",
+						"name": "ev_idle"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "ev_run",
+					"is_looping": true,
+					"tree": {
+						"type": "clip",
+						"name": "ev_run"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "ev_walk",
+					"is_looping": true,
+					"tree": {
+						"type": "clip",
+						"name": "ev_walk"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+
+				{
+					"name": "bow_idle",
+					"tree": {
+						"type": "clip",
+						"name": "bow_idle"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_run",
+					"is_looping": true,
+					"tree": {
+						"type": "clip",
+						"name": "bow_run"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_attack1",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_attack1"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_attack2",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_attack2"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_attack3",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_attack3"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_dodge",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_dodge"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_issen",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_issen"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_yarare_weak",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_yarare_weak"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_yarare_down",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_yarare_down"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_yarare_dead",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_yarare_dead"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_skill1",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_skill1"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_skill2",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_skill2"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_skill3",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_skill3"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_skill4",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_skill4"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_skill5",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_skill5"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_skill6",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_skill6"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_skill7",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_skill7"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_skill8",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_skill8"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_skill9",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_skill9"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_skill10",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_skill10"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_skill11",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_skill11"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_idle",
+					"tree": {
+						"type": "clip",
+						"name": "spr_idle"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_run",
+					"is_looping": true,
+					"tree": {
+						"type": "clip",
+						"name": "spr_run"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_attack1",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spr_attack1"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_attack2",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spr_attack2"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_attack3",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spr_attack3"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_dodge",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spr_dodge"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_issen",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spr_issen"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_yarare_weak",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spr_yarare_weak"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_yarare_down",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spr_yarare_down"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_yarare_dead",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spr_yarare_dead"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_skill1",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spr_skill1"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_skill2",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spr_skill2"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_skill3",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spr_skill3"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_skill4",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spr_skill4"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_skill5",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spr_skill5"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_skill6",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spr_skill6"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_skill7",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spr_skill7"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_skill8",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spr_skill8"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_skill9",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spr_skill9"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_skill10",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spr_skill10"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_skill11",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spr_skill11"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bt2ev",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bt2ev"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "ev2bt",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "ev2bt"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_bt2ev",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_bt2ev"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_ev2bt",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_ev2bt"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_bt2ev",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spr_bt2ev"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_ev2bt",
+					"is_looping": true,
+					"tree": {
+						"type": "clip",
+						"name": "spr_ev2bt"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_spStart",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_spStart"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_spAtk1",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_spAtk1"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_spAtk2",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_spAtk2"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_spStart",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spr_spStart"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_spAtk1",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spr_spAtk1"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_spAtk2",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spr_spAtk2"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_idle",
+					"tree": {
+						"type": "clip",
+						"name": "hth_idle"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_run",
+					"is_looping": true,
+					"tree": {
+						"type": "clip",
+						"name": "hth_run"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_attack1",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_attack1"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_attack2",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_attack2"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_attack3",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_attack3"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_attack4",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_attack4"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_dodge",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_dodge"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_issen",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_issen"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_yarare_weak",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_yarare_weak"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_yarare_down",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_yarare_down"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_yarare_dead",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_yarare_dead"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_skill1",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_skill1"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_skill2",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_skill2"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_skill3",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_skill3"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_skill4",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_skill4"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_skill5",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_skill5"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_skill6",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_skill6"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_skill7",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_skill7"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_skill8",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_skill8"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_skill9",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_skill9"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_skill10",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_skill10"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_skill11",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_skill11"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_spAtk1",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_spAtk1"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_spAtk2",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_spAtk2"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_spStart",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_spStart"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_bt2ev",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_bt2ev"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_ev2bt",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_ev2bt"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "bow_yarare_zuzaa",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "bow_yarare_zuzaa"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "spr_yarare_zuzaa",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "spr_yarare_zuzaa"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "hth_yarare_zuzaa",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "hth_yarare_zuzaa"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "ev_no",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "ev_no"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "ev_talk",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "ev_talk"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "ev_sigh",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "ev_sigh"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "ev_think",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "ev_think"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "2hs_idle",
+					"tree": {
+						"type": "clip",
+						"name": "2hs_idle"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "2hs_run",
+					"is_looping": true,
+					"tree": {
+						"type": "clip",
+						"name": "2hs_run"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "2hs_attack1",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "2hs_attack1"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "2hs_attack2",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "2hs_attack2"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "2hs_dodge",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "2hs_dodge"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "2hs_issen",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "2hs_issen"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "2hs_yarare_weak",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "2hs_yarare_weak"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "2hs_yarare_down",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "2hs_yarare_down"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "2hs_yarare_dead",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "2hs_yarare_dead"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "2hs_skill1",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "2hs_skill1"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "2hs_skill2",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "2hs_skill2"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "2hs_skill3",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "2hs_skill3"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "2hs_skill4",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "2hs_skill4"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "2hs_spAtk1",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "2hs_spAtk1"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "2hs_spAtk2",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "2hs_spAtk2"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "2hs_spStart",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "2hs_spStart"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "2hs_bt2ev",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "2hs_bt2ev"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "2hs_ev2bt",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "2hs_ev2bt"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+				{
+					"name": "2hs_yarare_zuzaa",
+					"is_looping": false,
+					"tree": {
+						"type": "clip",
+						"name": "2hs_yarare_zuzaa"
+					},
+					"transitions": [
+						{
+							"destination": "*",
+							"type": "crossfade",
+							"duration": 0.0
+						}
+					]
+				},
+			]
+		}
+	]
+}

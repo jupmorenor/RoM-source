@@ -1,0 +1,24 @@
+using System;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024__DebugSubLocalRaid_0024callable201_002440_5___0024__ActionBase__0024act_0024t_0024249_0024callable11_002440_5___002411
+{
+	protected __DebugSubLocalRaid_0024callable201_002440_5__ _0024from;
+
+	public _0024adaptor_0024__DebugSubLocalRaid_0024callable201_002440_5___0024__ActionBase__0024act_0024t_0024249_0024callable11_002440_5___002411(__DebugSubLocalRaid_0024callable201_002440_5__ from)
+	{
+		_0024from = from;
+	}
+
+	public void Invoke(DebugSubLocalRaid.ActionBase arg0)
+	{
+		_0024from((DebugSubLocalRaid.ActionClassmainMode)arg0);
+	}
+
+	public static __ActionBase__0024act_0024t_0024249_0024callable11_002440_5__ Adapt(__DebugSubLocalRaid_0024callable201_002440_5__ from)
+	{
+		return new _0024adaptor_0024__DebugSubLocalRaid_0024callable201_002440_5___0024__ActionBase__0024act_0024t_0024249_0024callable11_002440_5___002411(from).Invoke;
+	}
+}

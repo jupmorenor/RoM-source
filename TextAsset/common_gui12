@@ -1,0 +1,76 @@
+{"frames": {
+
+"bg_beta_kadomaru.png":
+{
+	"frame": {"x":984,"y":2,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32}
+},
+"downlord_bg.png":
+{
+	"frame": {"x":492,"y":506,"w":454,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":454,"h":256},
+	"sourceSize": {"w":454,"h":256}
+},
+"downlord_pic0.png":
+{
+	"frame": {"x":2,"y":506,"w":485,"h":505},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":485,"h":505},
+	"sourceSize": {"w":485,"h":505}
+},
+"downlord_pic1.png":
+{
+	"frame": {"x":2,"y":2,"w":864,"h":499},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":864,"h":499},
+	"sourceSize": {"w":864,"h":499}
+},
+"downlord_tuta.png":
+{
+	"frame": {"x":492,"y":767,"w":530,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":530,"h":128},
+	"sourceSize": {"w":530,"h":128}
+},
+"gauge_base.png":
+{
+	"frame": {"x":871,"y":2,"w":61,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":32},
+	"sourceSize": {"w":61,"h":32}
+},
+"gauge_exp_mat.png":
+{
+	"frame": {"x":984,"y":39,"w":21,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":21,"h":21},
+	"sourceSize": {"w":21,"h":21}
+},
+"gauge_frame.png":
+{
+	"frame": {"x":937,"y":2,"w":42,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":42,"h":35},
+	"sourceSize": {"w":42,"h":35}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "common_gui12.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8e2534365617f86a6d6765fdf5facbfb:90f3a9c3b2612016c11609ed5cfff42b:2feace81e5600c00caed34e476d24f5a$"
+}
+}

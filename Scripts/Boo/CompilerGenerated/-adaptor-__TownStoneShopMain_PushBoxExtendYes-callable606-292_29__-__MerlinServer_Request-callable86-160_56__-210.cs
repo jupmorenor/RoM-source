@@ -1,0 +1,25 @@
+using System;
+using MerlinAPI;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024__TownStoneShopMain_PushBoxExtendYes_0024callable606_0024292_29___0024__MerlinServer_Request_0024callable86_0024160_56___0024210
+{
+	protected __TownStoneShopMain_PushBoxExtendYes_0024callable606_0024292_29__ _0024from;
+
+	public _0024adaptor_0024__TownStoneShopMain_PushBoxExtendYes_0024callable606_0024292_29___0024__MerlinServer_Request_0024callable86_0024160_56___0024210(__TownStoneShopMain_PushBoxExtendYes_0024callable606_0024292_29__ from)
+	{
+		_0024from = from;
+	}
+
+	public void Invoke(RequestBase arg0)
+	{
+		_0024from((ApiBoxExtension)arg0);
+	}
+
+	public static __MerlinServer_Request_0024callable86_0024160_56__ Adapt(__TownStoneShopMain_PushBoxExtendYes_0024callable606_0024292_29__ from)
+	{
+		return new _0024adaptor_0024__TownStoneShopMain_PushBoxExtendYes_0024callable606_0024292_29___0024__MerlinServer_Request_0024callable86_0024160_56___0024210(from).Invoke;
+	}
+}

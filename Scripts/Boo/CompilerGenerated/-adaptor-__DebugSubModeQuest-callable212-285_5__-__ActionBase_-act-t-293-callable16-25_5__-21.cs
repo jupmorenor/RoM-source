@@ -1,0 +1,24 @@
+using System;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024__DebugSubModeQuest_0024callable212_0024285_5___0024__ActionBase__0024act_0024t_0024293_0024callable16_002425_5___002421
+{
+	protected __DebugSubModeQuest_0024callable212_0024285_5__ _0024from;
+
+	public _0024adaptor_0024__DebugSubModeQuest_0024callable212_0024285_5___0024__ActionBase__0024act_0024t_0024293_0024callable16_002425_5___002421(__DebugSubModeQuest_0024callable212_0024285_5__ from)
+	{
+		_0024from = from;
+	}
+
+	public void Invoke(DebugSubQuest.ActionBase arg0)
+	{
+		_0024from((DebugSubQuest.ActionClassallQuestMasterMode)arg0);
+	}
+
+	public static __ActionBase__0024act_0024t_0024293_0024callable16_002425_5__ Adapt(__DebugSubModeQuest_0024callable212_0024285_5__ from)
+	{
+		return new _0024adaptor_0024__DebugSubModeQuest_0024callable212_0024285_5___0024__ActionBase__0024act_0024t_0024293_0024callable16_002425_5___002421(from).Invoke;
+	}
+}

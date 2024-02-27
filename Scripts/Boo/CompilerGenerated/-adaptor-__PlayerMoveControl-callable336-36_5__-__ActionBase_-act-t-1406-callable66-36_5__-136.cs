@@ -1,0 +1,24 @@
+using System;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024__PlayerMoveControl_0024callable336_002436_5___0024__ActionBase__0024act_0024t_00241406_0024callable66_002436_5___0024136
+{
+	protected __PlayerMoveControl_0024callable336_002436_5__ _0024from;
+
+	public _0024adaptor_0024__PlayerMoveControl_0024callable336_002436_5___0024__ActionBase__0024act_0024t_00241406_0024callable66_002436_5___0024136(__PlayerMoveControl_0024callable336_002436_5__ from)
+	{
+		_0024from = from;
+	}
+
+	public void Invoke(PlayerMoveControl.ActionBase arg0)
+	{
+		_0024from((PlayerMoveControl.ActionClassupdate)arg0);
+	}
+
+	public static __ActionBase__0024act_0024t_00241406_0024callable66_002436_5__ Adapt(__PlayerMoveControl_0024callable336_002436_5__ from)
+	{
+		return new _0024adaptor_0024__PlayerMoveControl_0024callable336_002436_5___0024__ActionBase__0024act_0024t_00241406_0024callable66_002436_5___0024136(from).Invoke;
+	}
+}

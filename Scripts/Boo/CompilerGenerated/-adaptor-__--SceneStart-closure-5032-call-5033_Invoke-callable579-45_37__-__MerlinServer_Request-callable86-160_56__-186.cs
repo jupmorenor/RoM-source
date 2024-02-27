@@ -1,0 +1,25 @@
+using System;
+using MerlinAPI;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024___0024_0024SceneStart_0024closure_00245032_0024call_00245033_Invoke_0024callable579_002445_37___0024__MerlinServer_Request_0024callable86_0024160_56___0024186
+{
+	protected ___0024_0024SceneStart_0024closure_00245032_0024call_00245033_Invoke_0024callable579_002445_37__ _0024from;
+
+	public _0024adaptor_0024___0024_0024SceneStart_0024closure_00245032_0024call_00245033_Invoke_0024callable579_002445_37___0024__MerlinServer_Request_0024callable86_0024160_56___0024186(___0024_0024SceneStart_0024closure_00245032_0024call_00245033_Invoke_0024callable579_002445_37__ from)
+	{
+		_0024from = from;
+	}
+
+	public void Invoke(RequestBase arg0)
+	{
+		_0024from((ApiIsCreate)arg0);
+	}
+
+	public static __MerlinServer_Request_0024callable86_0024160_56__ Adapt(___0024_0024SceneStart_0024closure_00245032_0024call_00245033_Invoke_0024callable579_002445_37__ from)
+	{
+		return new _0024adaptor_0024___0024_0024SceneStart_0024closure_00245032_0024call_00245033_Invoke_0024callable579_002445_37___0024__MerlinServer_Request_0024callable86_0024160_56___0024186(from).Invoke;
+	}
+}

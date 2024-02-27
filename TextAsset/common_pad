@@ -1,0 +1,28 @@
+{"frames": {
+
+"pad_bg.png":
+{
+	"frame": {"x":0,"y":0,"w":128,"h":256},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":256},
+	"sourceSize": {"w":128,"h":256}
+},
+"pad_icon.png":
+{
+	"frame": {"x":130,"y":0,"w":68,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":68,"h":68},
+	"sourceSize": {"w":68,"h":68}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "common_pad00.png",
+	"format": "RGBA8888",
+	"size": {"w":256,"h":256},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:51abc57d6883c1e1a5ba0695a194f566:200918b35181087da8fc378c133d2b43:975604ab96e3348e4acdf7b625293599$"
+}
+}

@@ -1,0 +1,24 @@
+using System;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024___0024_MoveNext_0024callable521_00241372_51___0024__PlayerControl_instantiateRaceModel_0024callable61_00241397_65___0024135
+{
+	protected ___0024_MoveNext_0024callable521_00241372_51__ _0024from;
+
+	public _0024adaptor_0024___0024_MoveNext_0024callable521_00241372_51___0024__PlayerControl_instantiateRaceModel_0024callable61_00241397_65___0024135(___0024_MoveNext_0024callable521_00241372_51__ from)
+	{
+		_0024from = from;
+	}
+
+	public void Invoke(PlayerModelSettings arg0)
+	{
+		_0024from(arg0);
+	}
+
+	public static __PlayerControl_instantiateRaceModel_0024callable61_00241397_65__ Adapt(___0024_MoveNext_0024callable521_00241372_51__ from)
+	{
+		return new _0024adaptor_0024___0024_MoveNext_0024callable521_00241372_51___0024__PlayerControl_instantiateRaceModel_0024callable61_00241397_65___0024135(from).Invoke;
+	}
+}

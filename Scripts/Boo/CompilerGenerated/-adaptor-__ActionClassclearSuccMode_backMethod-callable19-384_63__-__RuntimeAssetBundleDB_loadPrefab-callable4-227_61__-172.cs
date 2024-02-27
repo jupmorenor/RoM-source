@@ -1,0 +1,25 @@
+using System;
+using UnityEngine;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024__ActionClassclearSuccMode_backMethod_0024callable19_0024384_63___0024__RuntimeAssetBundleDB_loadPrefab_0024callable4_0024227_61___0024172
+{
+	protected __ActionClassclearSuccMode_backMethod_0024callable19_0024384_63__ _0024from;
+
+	public _0024adaptor_0024__ActionClassclearSuccMode_backMethod_0024callable19_0024384_63___0024__RuntimeAssetBundleDB_loadPrefab_0024callable4_0024227_61___0024172(__ActionClassclearSuccMode_backMethod_0024callable19_0024384_63__ from)
+	{
+		_0024from = from;
+	}
+
+	public void Invoke(GameObject arg0)
+	{
+		_0024from();
+	}
+
+	public static __RuntimeAssetBundleDB_loadPrefab_0024callable4_0024227_61__ Adapt(__ActionClassclearSuccMode_backMethod_0024callable19_0024384_63__ from)
+	{
+		return new _0024adaptor_0024__ActionClassclearSuccMode_backMethod_0024callable19_0024384_63___0024__RuntimeAssetBundleDB_loadPrefab_0024callable4_0024227_61___0024172(from).Invoke;
+	}
+}

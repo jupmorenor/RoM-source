@@ -1,0 +1,24 @@
+using System;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024__ActionClassclearSuccMode_backMethod_0024callable19_0024384_63___0024__LotterySequence_S540_ExecuteStoneList_0024callable43_0024917_34___0024211
+{
+	protected __ActionClassclearSuccMode_backMethod_0024callable19_0024384_63__ _0024from;
+
+	public _0024adaptor_0024__ActionClassclearSuccMode_backMethod_0024callable19_0024384_63___0024__LotterySequence_S540_ExecuteStoneList_0024callable43_0024917_34___0024211(__ActionClassclearSuccMode_backMethod_0024callable19_0024384_63__ from)
+	{
+		_0024from = from;
+	}
+
+	public void Invoke(bool arg0)
+	{
+		_0024from();
+	}
+
+	public static __LotterySequence_S540_ExecuteStoneList_0024callable43_0024917_34__ Adapt(__ActionClassclearSuccMode_backMethod_0024callable19_0024384_63__ from)
+	{
+		return new _0024adaptor_0024__ActionClassclearSuccMode_backMethod_0024callable19_0024384_63___0024__LotterySequence_S540_ExecuteStoneList_0024callable43_0024917_34___0024211(from).Invoke;
+	}
+}

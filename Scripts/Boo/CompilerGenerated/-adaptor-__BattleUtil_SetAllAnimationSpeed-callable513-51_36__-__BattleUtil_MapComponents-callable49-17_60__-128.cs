@@ -1,0 +1,25 @@
+using System;
+using UnityEngine;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024__BattleUtil_SetAllAnimationSpeed_0024callable513_002451_36___0024__BattleUtil_MapComponents_0024callable49_002417_60___0024128
+{
+	protected __BattleUtil_SetAllAnimationSpeed_0024callable513_002451_36__ _0024from;
+
+	public _0024adaptor_0024__BattleUtil_SetAllAnimationSpeed_0024callable513_002451_36___0024__BattleUtil_MapComponents_0024callable49_002417_60___0024128(__BattleUtil_SetAllAnimationSpeed_0024callable513_002451_36__ from)
+	{
+		_0024from = from;
+	}
+
+	public void Invoke(UnityEngine.Object arg0)
+	{
+		_0024from((Animation)arg0);
+	}
+
+	public static __BattleUtil_MapComponents_0024callable49_002417_60__ Adapt(__BattleUtil_SetAllAnimationSpeed_0024callable513_002451_36__ from)
+	{
+		return new _0024adaptor_0024__BattleUtil_SetAllAnimationSpeed_0024callable513_002451_36___0024__BattleUtil_MapComponents_0024callable49_002417_60___0024128(from).Invoke;
+	}
+}

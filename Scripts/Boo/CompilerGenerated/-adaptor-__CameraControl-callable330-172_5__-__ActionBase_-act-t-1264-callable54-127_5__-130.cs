@@ -1,0 +1,24 @@
+using System;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024__CameraControl_0024callable330_0024172_5___0024__ActionBase__0024act_0024t_00241264_0024callable54_0024127_5___0024130
+{
+	protected __CameraControl_0024callable330_0024172_5__ _0024from;
+
+	public _0024adaptor_0024__CameraControl_0024callable330_0024172_5___0024__ActionBase__0024act_0024t_00241264_0024callable54_0024127_5___0024130(__CameraControl_0024callable330_0024172_5__ from)
+	{
+		_0024from = from;
+	}
+
+	public void Invoke(CameraControl.ActionBase arg0)
+	{
+		_0024from((CameraControl.ActionClassfieldCameraUpdate)arg0);
+	}
+
+	public static __ActionBase__0024act_0024t_00241264_0024callable54_0024127_5__ Adapt(__CameraControl_0024callable330_0024172_5__ from)
+	{
+		return new _0024adaptor_0024__CameraControl_0024callable330_0024172_5___0024__ActionBase__0024act_0024t_00241264_0024callable54_0024127_5___0024130(from).Invoke;
+	}
+}

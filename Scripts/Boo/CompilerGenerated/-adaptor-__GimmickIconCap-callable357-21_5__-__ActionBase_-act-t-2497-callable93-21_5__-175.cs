@@ -1,0 +1,24 @@
+using System;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024__GimmickIconCap_0024callable357_002421_5___0024__ActionBase__0024act_0024t_00242497_0024callable93_002421_5___0024175
+{
+	protected __GimmickIconCap_0024callable357_002421_5__ _0024from;
+
+	public _0024adaptor_0024__GimmickIconCap_0024callable357_002421_5___0024__ActionBase__0024act_0024t_00242497_0024callable93_002421_5___0024175(__GimmickIconCap_0024callable357_002421_5__ from)
+	{
+		_0024from = from;
+	}
+
+	public void Invoke(GimmickIconCap.ActionBase arg0)
+	{
+		_0024from((GimmickIconCap.ActionClassalways)arg0);
+	}
+
+	public static __ActionBase__0024act_0024t_00242497_0024callable93_002421_5__ Adapt(__GimmickIconCap_0024callable357_002421_5__ from)
+	{
+		return new _0024adaptor_0024__GimmickIconCap_0024callable357_002421_5___0024__ActionBase__0024act_0024t_00242497_0024callable93_002421_5___0024175(from).Invoke;
+	}
+}

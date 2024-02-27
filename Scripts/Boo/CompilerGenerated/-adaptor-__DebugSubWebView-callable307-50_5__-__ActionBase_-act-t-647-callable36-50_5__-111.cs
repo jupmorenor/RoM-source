@@ -1,0 +1,24 @@
+using System;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024__DebugSubWebView_0024callable307_002450_5___0024__ActionBase__0024act_0024t_0024647_0024callable36_002450_5___0024111
+{
+	protected __DebugSubWebView_0024callable307_002450_5__ _0024from;
+
+	public _0024adaptor_0024__DebugSubWebView_0024callable307_002450_5___0024__ActionBase__0024act_0024t_0024647_0024callable36_002450_5___0024111(__DebugSubWebView_0024callable307_002450_5__ from)
+	{
+		_0024from = from;
+	}
+
+	public void Invoke(DebugSubWebView.ActionBase arg0)
+	{
+		_0024from((DebugSubWebView.ActionClassmainMode)arg0);
+	}
+
+	public static __ActionBase__0024act_0024t_0024647_0024callable36_002450_5__ Adapt(__DebugSubWebView_0024callable307_002450_5__ from)
+	{
+		return new _0024adaptor_0024__DebugSubWebView_0024callable307_002450_5___0024__ActionBase__0024act_0024t_0024647_0024callable36_002450_5___0024111(from).Invoke;
+	}
+}

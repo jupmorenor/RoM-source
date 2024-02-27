@@ -1,0 +1,26 @@
+using System;
+
+[Serializable]
+public enum GimmickIconTypes
+{
+	ANGEL,
+	DEVIL,
+	DOOR,
+	TALK,
+	MAPET_SHOP,
+	WEAPON_SHOP,
+	GATYA_SHOP,
+	SEIREISEKI_SHOP,
+	WEAPON_BOX,
+	MAP,
+	MAPET,
+	INFO,
+	GACHA,
+	CAUTION,
+	STOCK,
+	SABOTENKUN,
+	PICBOOK,
+	LETTER,
+	__MAX__,
+	__NONE__
+}

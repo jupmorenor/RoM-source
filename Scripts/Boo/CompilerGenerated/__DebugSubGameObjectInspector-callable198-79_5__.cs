@@ -1,0 +1,8 @@
+using System;
+using System.Runtime.CompilerServices;
+
+namespace CompilerGenerated;
+
+[Serializable]
+[CompilerGenerated]
+public delegate void __DebugSubGameObjectInspector_0024callable198_002479_5__(DebugSubGameObjectInspector.ActionClassComponentListMode _0024act_0024t_0024240);

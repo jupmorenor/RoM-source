@@ -1,0 +1,24 @@
+using System;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024__WorldColosseumMain__0024InitColosseumEventList_0024closure_00243125_0024callable136_0024413_24___0024Comparison_0024180
+{
+	protected __WorldColosseumMain__0024InitColosseumEventList_0024closure_00243125_0024callable136_0024413_24__ _0024from;
+
+	public _0024adaptor_0024__WorldColosseumMain__0024InitColosseumEventList_0024closure_00243125_0024callable136_0024413_24___0024Comparison_0024180(__WorldColosseumMain__0024InitColosseumEventList_0024closure_00243125_0024callable136_0024413_24__ from)
+	{
+		_0024from = from;
+	}
+
+	public int Invoke(UIListBase.Container x, UIListBase.Container y)
+	{
+		return _0024from(x, y);
+	}
+
+	public static Comparison<UIListBase.Container> Adapt(__WorldColosseumMain__0024InitColosseumEventList_0024closure_00243125_0024callable136_0024413_24__ from)
+	{
+		return new _0024adaptor_0024__WorldColosseumMain__0024InitColosseumEventList_0024closure_00243125_0024callable136_0024413_24___0024Comparison_0024180(from).Invoke;
+	}
+}

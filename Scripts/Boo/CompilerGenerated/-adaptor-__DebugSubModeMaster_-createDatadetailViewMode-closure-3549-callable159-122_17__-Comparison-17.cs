@@ -1,0 +1,25 @@
+using System;
+using System.Reflection;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024__DebugSubModeMaster__0024createDatadetailViewMode_0024closure_00243549_0024callable159_0024122_17___0024Comparison_002417
+{
+	protected __DebugSubModeMaster__0024createDatadetailViewMode_0024closure_00243549_0024callable159_0024122_17__ _0024from;
+
+	public _0024adaptor_0024__DebugSubModeMaster__0024createDatadetailViewMode_0024closure_00243549_0024callable159_0024122_17___0024Comparison_002417(__DebugSubModeMaster__0024createDatadetailViewMode_0024closure_00243549_0024callable159_0024122_17__ from)
+	{
+		_0024from = from;
+	}
+
+	public int Invoke(PropertyInfo a, PropertyInfo b)
+	{
+		return _0024from(a, b);
+	}
+
+	public static Comparison<PropertyInfo> Adapt(__DebugSubModeMaster__0024createDatadetailViewMode_0024closure_00243549_0024callable159_0024122_17__ from)
+	{
+		return new _0024adaptor_0024__DebugSubModeMaster__0024createDatadetailViewMode_0024closure_00243549_0024callable159_0024122_17___0024Comparison_002417(from).Invoke;
+	}
+}

@@ -1,0 +1,26 @@
+using System;
+using System.Collections;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024__ActionClassclearSuccMode_backMethod_0024callable19_0024384_63___0024__GouseiSequense_S540_init_0024callable40_002410_5___0024209
+{
+	protected __ActionClassclearSuccMode_backMethod_0024callable19_0024384_63__ _0024from;
+
+	public _0024adaptor_0024__ActionClassclearSuccMode_backMethod_0024callable19_0024384_63___0024__GouseiSequense_S540_init_0024callable40_002410_5___0024209(__ActionClassclearSuccMode_backMethod_0024callable19_0024384_63__ from)
+	{
+		_0024from = from;
+	}
+
+	public IEnumerator Invoke()
+	{
+		_0024from();
+		return null;
+	}
+
+	public static __GouseiSequense_S540_init_0024callable40_002410_5__ Adapt(__ActionClassclearSuccMode_backMethod_0024callable19_0024384_63__ from)
+	{
+		return new _0024adaptor_0024__ActionClassclearSuccMode_backMethod_0024callable19_0024384_63___0024__GouseiSequense_S540_init_0024callable40_002410_5___0024209(from).Invoke;
+	}
+}

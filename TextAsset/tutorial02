@@ -1,0 +1,60 @@
+{"frames": {
+
+"finger01.png":
+{
+	"frame": {"x":121,"y":330,"w":128,"h":157},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":157},
+	"sourceSize": {"w":128,"h":157}
+},
+"finger02.png":
+{
+	"frame": {"x":2,"y":330,"w":117,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":117,"h":180},
+	"sourceSize": {"w":117,"h":180}
+},
+"icon_tap.png":
+{
+	"frame": {"x":372,"y":330,"w":80,"h":66},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":80,"h":66},
+	"sourceSize": {"w":80,"h":66}
+},
+"tutorial_11.png":
+{
+	"frame": {"x":2,"y":2,"w":439,"h":326},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":439,"h":326},
+	"sourceSize": {"w":439,"h":326}
+},
+"tutorial_win00.png":
+{
+	"frame": {"x":251,"y":330,"w":119,"h":88},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":119,"h":88},
+	"sourceSize": {"w":119,"h":88}
+},
+"tutorial_win01.png":
+{
+	"frame": {"x":251,"y":420,"w":119,"h":88},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":119,"h":88},
+	"sourceSize": {"w":119,"h":88}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "tutorial02.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:5ef69372dd59bbd476c1c2a992567ebd:b25cd1513e84e39b381655f61cc325c5:f0615e17fde5cb840dc985af9c4dfd25$"
+}
+}

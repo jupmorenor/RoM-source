@@ -1,0 +1,24 @@
+using System;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024__CommentSelectDialog__0024Close_0024closure_00243749_0024callable163_0024149_25___0024OnFinished_0024115
+{
+	protected __CommentSelectDialog__0024Close_0024closure_00243749_0024callable163_0024149_25__ _0024from;
+
+	public _0024adaptor_0024__CommentSelectDialog__0024Close_0024closure_00243749_0024callable163_0024149_25___0024OnFinished_0024115(__CommentSelectDialog__0024Close_0024closure_00243749_0024callable163_0024149_25__ from)
+	{
+		_0024from = from;
+	}
+
+	public void Invoke(UITweener tw)
+	{
+		_0024from(tw);
+	}
+
+	public static UITweener.OnFinished Adapt(__CommentSelectDialog__0024Close_0024closure_00243749_0024callable163_0024149_25__ from)
+	{
+		return new _0024adaptor_0024__CommentSelectDialog__0024Close_0024closure_00243749_0024callable163_0024149_25___0024OnFinished_0024115(from).Invoke;
+	}
+}

@@ -1,0 +1,25 @@
+using System;
+using MerlinAPI;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024__MessageBoard__0024PushTeamAgree_0024AcceptLeader_00243197_0024callable144_0024872_17___0024Action_0024203
+{
+	protected __MessageBoard__0024PushTeamAgree_0024AcceptLeader_00243197_0024callable144_0024872_17__ _0024from;
+
+	public _0024adaptor_0024__MessageBoard__0024PushTeamAgree_0024AcceptLeader_00243197_0024callable144_0024872_17___0024Action_0024203(__MessageBoard__0024PushTeamAgree_0024AcceptLeader_00243197_0024callable144_0024872_17__ from)
+	{
+		_0024from = from;
+	}
+
+	public void Invoke(RequestBase obj)
+	{
+		_0024from((ApiPartyLeaderChangeAccept)obj);
+	}
+
+	public static Action<RequestBase> Adapt(__MessageBoard__0024PushTeamAgree_0024AcceptLeader_00243197_0024callable144_0024872_17__ from)
+	{
+		return new _0024adaptor_0024__MessageBoard__0024PushTeamAgree_0024AcceptLeader_00243197_0024callable144_0024872_17___0024Action_0024203(from).Invoke;
+	}
+}

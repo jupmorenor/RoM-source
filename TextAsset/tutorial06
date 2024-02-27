@@ -1,0 +1,20 @@
+{"frames": {
+
+"tutorial_tap.png":
+{
+	"frame": {"x":2,"y":2,"w":960,"h":640},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":960,"h":640},
+	"sourceSize": {"w":960,"h":640}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "tutorial06.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:7d83c6d9402559628f6c3cc9b0d37d7b:80d698bc215f302346d1dfeef01ecdba:d35482951c731061a3312542189e3cea$"
+}
+}

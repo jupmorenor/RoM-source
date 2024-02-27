@@ -1,0 +1,244 @@
+{"frames": {
+
+"map.png":
+{
+	"frame": {"x":0,"y":0,"w":1566,"h":1566},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1566,"h":1566},
+	"sourceSize": {"w":1566,"h":1566}
+},
+"map_arrow.png":
+{
+	"frame": {"x":1924,"y":0,"w":75,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":57},
+	"sourceSize": {"w":75,"h":57}
+},
+"map_bg.png":
+{
+	"frame": {"x":0,"y":1571,"w":560,"h":474},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":560,"h":474},
+	"sourceSize": {"w":560,"h":474}
+},
+"map_icon_Challenge.png":
+{
+	"frame": {"x":1706,"y":946,"w":158,"h":185},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":185},
+	"sourceSize": {"w":158,"h":185}
+},
+"map_icon_cave.png":
+{
+	"frame": {"x":1869,"y":898,"w":158,"h":185},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":185},
+	"sourceSize": {"w":158,"h":185}
+},
+"map_icon_coast.png":
+{
+	"frame": {"x":1706,"y":756,"w":158,"h":185},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":185},
+	"sourceSize": {"w":158,"h":185}
+},
+"map_icon_colosseum.png":
+{
+	"frame": {"x":1869,"y":708,"w":158,"h":185},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":185},
+	"sourceSize": {"w":158,"h":185}
+},
+"map_icon_darkforest .png":
+{
+	"frame": {"x":1706,"y":566,"w":158,"h":185},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":185},
+	"sourceSize": {"w":158,"h":185}
+},
+"map_icon_darksanctuary.png":
+{
+	"frame": {"x":1869,"y":518,"w":158,"h":185},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":185},
+	"sourceSize": {"w":158,"h":185}
+},
+"map_icon_desert.png":
+{
+	"frame": {"x":1706,"y":376,"w":158,"h":185},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":185},
+	"sourceSize": {"w":158,"h":185}
+},
+"map_icon_flamevalley.png":
+{
+	"frame": {"x":1875,"y":328,"w":158,"h":185},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":185},
+	"sourceSize": {"w":158,"h":185}
+},
+"map_icon_forest.png":
+{
+	"frame": {"x":1543,"y":1761,"w":158,"h":185},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":185},
+	"sourceSize": {"w":158,"h":185}
+},
+"map_icon_heaven.png":
+{
+	"frame": {"x":1543,"y":1571,"w":158,"h":185},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":185},
+	"sourceSize": {"w":158,"h":185}
+},
+"map_icon_hell.png":
+{
+	"frame": {"x":1380,"y":1761,"w":158,"h":185},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":185},
+	"sourceSize": {"w":158,"h":185}
+},
+"map_icon_icecave.png":
+{
+	"frame": {"x":1380,"y":1571,"w":158,"h":185},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":185},
+	"sourceSize": {"w":158,"h":185}
+},
+"map_icon_mountain.png":
+{
+	"frame": {"x":1217,"y":1761,"w":158,"h":185},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":185},
+	"sourceSize": {"w":158,"h":185}
+},
+"map_icon_raid.png":
+{
+	"frame": {"x":1217,"y":1571,"w":158,"h":185},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":185},
+	"sourceSize": {"w":158,"h":185}
+},
+"map_icon_sanctuary.png":
+{
+	"frame": {"x":1054,"y":1761,"w":158,"h":185},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":185},
+	"sourceSize": {"w":158,"h":185}
+},
+"map_icon_snowfield.png":
+{
+	"frame": {"x":1054,"y":1571,"w":158,"h":185},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":185},
+	"sourceSize": {"w":158,"h":185}
+},
+"map_icon_sp.png":
+{
+	"frame": {"x":891,"y":1761,"w":158,"h":185},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":185},
+	"sourceSize": {"w":158,"h":185}
+},
+"map_icon_temple.png":
+{
+	"frame": {"x":891,"y":1571,"w":158,"h":185},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":185},
+	"sourceSize": {"w":158,"h":185}
+},
+"map_icon_tower.png":
+{
+	"frame": {"x":728,"y":1761,"w":158,"h":185},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":185},
+	"sourceSize": {"w":158,"h":185}
+},
+"map_icon_town.png":
+{
+	"frame": {"x":728,"y":1571,"w":158,"h":185},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":185},
+	"sourceSize": {"w":158,"h":185}
+},
+"map_icon_training.png":
+{
+	"frame": {"x":565,"y":1761,"w":158,"h":185},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":185},
+	"sourceSize": {"w":158,"h":185}
+},
+"map_icon_volcano.png":
+{
+	"frame": {"x":565,"y":1571,"w":158,"h":185},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":185},
+	"sourceSize": {"w":158,"h":185}
+},
+"map_kumo.png":
+{
+	"frame": {"x":1875,"y":207,"w":160,"h":116},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":116},
+	"sourceSize": {"w":160,"h":116}
+},
+"map_sign.png":
+{
+	"frame": {"x":1571,"y":0,"w":348,"h":202},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":348,"h":202},
+	"sourceSize": {"w":348,"h":202}
+},
+"map_signcircle.png":
+{
+	"frame": {"x":1706,"y":207,"w":164,"h":164},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":164},
+	"sourceSize": {"w":164,"h":164}
+},
+"map_windmill.png":
+{
+	"frame": {"x":1924,"y":62,"w":48,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":45},
+	"sourceSize": {"w":48,"h":45}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "worldmap.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a5d637803d08fb4e766e33df35afa3a6:1fd77011e94cc0c521b8ec5c7c6cc4d0:45d48585124d73aea35900b830afddd8$"
+}
+}

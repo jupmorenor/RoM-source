@@ -1,0 +1,25 @@
+using System;
+using MerlinAPI;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024__LotteryBase_LoadResource_0024callable41_00241986_51___0024__MerlinServer_Request_0024callable86_0024160_56___0024164
+{
+	protected __LotteryBase_LoadResource_0024callable41_00241986_51__ _0024from;
+
+	public _0024adaptor_0024__LotteryBase_LoadResource_0024callable41_00241986_51___0024__MerlinServer_Request_0024callable86_0024160_56___0024164(__LotteryBase_LoadResource_0024callable41_00241986_51__ from)
+	{
+		_0024from = from;
+	}
+
+	public void Invoke(RequestBase arg0)
+	{
+		_0024from(arg0);
+	}
+
+	public static __MerlinServer_Request_0024callable86_0024160_56__ Adapt(__LotteryBase_LoadResource_0024callable41_00241986_51__ from)
+	{
+		return new _0024adaptor_0024__LotteryBase_LoadResource_0024callable41_00241986_51___0024__MerlinServer_Request_0024callable86_0024160_56___0024164(from).Invoke;
+	}
+}

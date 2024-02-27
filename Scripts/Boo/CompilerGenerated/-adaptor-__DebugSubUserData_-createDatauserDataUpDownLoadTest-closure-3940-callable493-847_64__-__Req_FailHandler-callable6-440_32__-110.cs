@@ -1,0 +1,24 @@
+using System;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024__DebugSubUserData__0024createDatauserDataUpDownLoadTest_0024closure_00243940_0024callable493_0024847_64___0024__Req_FailHandler_0024callable6_0024440_32___0024110
+{
+	protected __DebugSubUserData__0024createDatauserDataUpDownLoadTest_0024closure_00243940_0024callable493_0024847_64__ _0024from;
+
+	public _0024adaptor_0024__DebugSubUserData__0024createDatauserDataUpDownLoadTest_0024closure_00243940_0024callable493_0024847_64___0024__Req_FailHandler_0024callable6_0024440_32___0024110(__DebugSubUserData__0024createDatauserDataUpDownLoadTest_0024closure_00243940_0024callable493_0024847_64__ from)
+	{
+		_0024from = from;
+	}
+
+	public void Invoke(string arg0)
+	{
+		_0024from(arg0);
+	}
+
+	public static __Req_FailHandler_0024callable6_0024440_32__ Adapt(__DebugSubUserData__0024createDatauserDataUpDownLoadTest_0024closure_00243940_0024callable493_0024847_64__ from)
+	{
+		return new _0024adaptor_0024__DebugSubUserData__0024createDatauserDataUpDownLoadTest_0024closure_00243940_0024callable493_0024847_64___0024__Req_FailHandler_0024callable6_0024440_32___0024110(from).Invoke;
+	}
+}

@@ -1,0 +1,25 @@
+using System;
+using UnityEngine;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024__MerlinMotionPack_loadClip_0024callable370_0024389_23___0024__RuntimeAssetBundleDB_loadAsset_0024callable5_0024275_59___00240
+{
+	protected __MerlinMotionPack_loadClip_0024callable370_0024389_23__ _0024from;
+
+	public _0024adaptor_0024__MerlinMotionPack_loadClip_0024callable370_0024389_23___0024__RuntimeAssetBundleDB_loadAsset_0024callable5_0024275_59___00240(__MerlinMotionPack_loadClip_0024callable370_0024389_23__ from)
+	{
+		_0024from = from;
+	}
+
+	public void Invoke(RuntimeAssetBundleDB.Req arg0, UnityEngine.Object arg1)
+	{
+		_0024from(arg0, arg1);
+	}
+
+	public static __RuntimeAssetBundleDB_loadAsset_0024callable5_0024275_59__ Adapt(__MerlinMotionPack_loadClip_0024callable370_0024389_23__ from)
+	{
+		return new _0024adaptor_0024__MerlinMotionPack_loadClip_0024callable370_0024389_23___0024__RuntimeAssetBundleDB_loadAsset_0024callable5_0024275_59___00240(from).Invoke;
+	}
+}

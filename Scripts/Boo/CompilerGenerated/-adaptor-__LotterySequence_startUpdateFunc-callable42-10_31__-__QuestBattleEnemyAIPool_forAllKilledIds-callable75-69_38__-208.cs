@@ -1,0 +1,24 @@
+using System;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024__LotterySequence_startUpdateFunc_0024callable42_002410_31___0024__QuestBattleEnemyAIPool_forAllKilledIds_0024callable75_002469_38___0024208
+{
+	protected __LotterySequence_startUpdateFunc_0024callable42_002410_31__ _0024from;
+
+	public _0024adaptor_0024__LotterySequence_startUpdateFunc_0024callable42_002410_31___0024__QuestBattleEnemyAIPool_forAllKilledIds_0024callable75_002469_38___0024208(__LotterySequence_startUpdateFunc_0024callable42_002410_31__ from)
+	{
+		_0024from = from;
+	}
+
+	public void Invoke(int arg0)
+	{
+		_0024from();
+	}
+
+	public static __QuestBattleEnemyAIPool_forAllKilledIds_0024callable75_002469_38__ Adapt(__LotterySequence_startUpdateFunc_0024callable42_002410_31__ from)
+	{
+		return new _0024adaptor_0024__LotterySequence_startUpdateFunc_0024callable42_002410_31___0024__QuestBattleEnemyAIPool_forAllKilledIds_0024callable75_002469_38___0024208(from).Invoke;
+	}
+}

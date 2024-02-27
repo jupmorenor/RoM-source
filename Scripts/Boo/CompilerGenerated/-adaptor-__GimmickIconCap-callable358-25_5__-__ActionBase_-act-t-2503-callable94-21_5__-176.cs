@@ -1,0 +1,25 @@
+using System;
+using System.Collections;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024__GimmickIconCap_0024callable358_002425_5___0024__ActionBase__0024act_0024t_00242503_0024callable94_002421_5___0024176
+{
+	protected __GimmickIconCap_0024callable358_002425_5__ _0024from;
+
+	public _0024adaptor_0024__GimmickIconCap_0024callable358_002425_5___0024__ActionBase__0024act_0024t_00242503_0024callable94_002421_5___0024176(__GimmickIconCap_0024callable358_002425_5__ from)
+	{
+		_0024from = from;
+	}
+
+	public IEnumerator Invoke(GimmickIconCap.ActionBase arg0)
+	{
+		return _0024from((GimmickIconCap.ActionClassnearPlayer)arg0);
+	}
+
+	public static __ActionBase__0024act_0024t_00242503_0024callable94_002421_5__ Adapt(__GimmickIconCap_0024callable358_002425_5__ from)
+	{
+		return new _0024adaptor_0024__GimmickIconCap_0024callable358_002425_5___0024__ActionBase__0024act_0024t_00242503_0024callable94_002421_5___0024176(from).Invoke;
+	}
+}

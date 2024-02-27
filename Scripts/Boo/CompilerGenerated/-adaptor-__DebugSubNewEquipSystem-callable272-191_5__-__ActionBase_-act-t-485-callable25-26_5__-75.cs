@@ -1,0 +1,24 @@
+using System;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024__DebugSubNewEquipSystem_0024callable272_0024191_5___0024__ActionBase__0024act_0024t_0024485_0024callable25_002426_5___002475
+{
+	protected __DebugSubNewEquipSystem_0024callable272_0024191_5__ _0024from;
+
+	public _0024adaptor_0024__DebugSubNewEquipSystem_0024callable272_0024191_5___0024__ActionBase__0024act_0024t_0024485_0024callable25_002426_5___002475(__DebugSubNewEquipSystem_0024callable272_0024191_5__ from)
+	{
+		_0024from = from;
+	}
+
+	public void Invoke(DebugSubNewEquipSystem.ActionBase arg0)
+	{
+		_0024from((DebugSubNewEquipSystem.ActionClasssetAndSendDeckToServer)arg0);
+	}
+
+	public static __ActionBase__0024act_0024t_0024485_0024callable25_002426_5__ Adapt(__DebugSubNewEquipSystem_0024callable272_0024191_5__ from)
+	{
+		return new _0024adaptor_0024__DebugSubNewEquipSystem_0024callable272_0024191_5___0024__ActionBase__0024act_0024t_0024485_0024callable25_002426_5___002475(from).Invoke;
+	}
+}

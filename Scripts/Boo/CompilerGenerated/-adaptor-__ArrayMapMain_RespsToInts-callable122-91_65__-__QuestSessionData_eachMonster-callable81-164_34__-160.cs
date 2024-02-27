@@ -1,0 +1,25 @@
+using System;
+using MerlinAPI;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024__ArrayMapMain_RespsToInts_0024callable122_002491_65___0024__QuestSessionData_eachMonster_0024callable81_0024164_34___0024160
+{
+	protected __ArrayMapMain_RespsToInts_0024callable122_002491_65__ _0024from;
+
+	public _0024adaptor_0024__ArrayMapMain_RespsToInts_0024callable122_002491_65___0024__QuestSessionData_eachMonster_0024callable81_0024164_34___0024160(__ArrayMapMain_RespsToInts_0024callable122_002491_65__ from)
+	{
+		_0024from = from;
+	}
+
+	public void Invoke(RespMonster arg0)
+	{
+		_0024from(arg0);
+	}
+
+	public static __QuestSessionData_eachMonster_0024callable81_0024164_34__ Adapt(__ArrayMapMain_RespsToInts_0024callable122_002491_65__ from)
+	{
+		return new _0024adaptor_0024__ArrayMapMain_RespsToInts_0024callable122_002491_65___0024__QuestSessionData_eachMonster_0024callable81_0024164_34___0024160(from).Invoke;
+	}
+}

@@ -1,0 +1,25 @@
+using System;
+using MerlinAPI;
+
+namespace CompilerGenerated;
+
+[Serializable]
+internal sealed class _0024adaptor_0024__MerlinServer_AccessInfo_0024callable89_0024680_40___0024__MerlinServer_Request_0024callable86_0024160_56___0024166
+{
+	protected __MerlinServer_AccessInfo_0024callable89_0024680_40__ _0024from;
+
+	public _0024adaptor_0024__MerlinServer_AccessInfo_0024callable89_0024680_40___0024__MerlinServer_Request_0024callable86_0024160_56___0024166(__MerlinServer_AccessInfo_0024callable89_0024680_40__ from)
+	{
+		_0024from = from;
+	}
+
+	public void Invoke(RequestBase arg0)
+	{
+		_0024from((ApiPlatformAccessInfo)arg0);
+	}
+
+	public static __MerlinServer_Request_0024callable86_0024160_56__ Adapt(__MerlinServer_AccessInfo_0024callable89_0024680_40__ from)
+	{
+		return new _0024adaptor_0024__MerlinServer_AccessInfo_0024callable89_0024680_40___0024__MerlinServer_Request_0024callable86_0024160_56___0024166(from).Invoke;
+	}
+}
